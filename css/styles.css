@@ -72,10 +72,51 @@ table {
   background-color: #03b1c8;
 }
 
-ul {  
+#character-list {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;  
+  padding-top: 115px;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
+#character-list li {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 300px;
+  width: 100%;
+  border-width: .5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: grey;
+  padding: 10px;
+  background-color: aliceblue;
+  
+}
 
+#character-list p b{
+  font-weight: bold;
+}
+#character-list p{
+  margin-top: 5px;
+}
 
+#character-list img{
+  height: 300px;
+  width: 300px;
+}
+
+#pages{
+  position: relative;
+  margin-top: -36px;
+  
+}
+#current-page{
+  margin: 10px;
+  text-align: center;
+}
